@@ -129,22 +129,19 @@ text-decoration: none;
 /*  Extra small devices (portrait phones, less than 576px) */
 @media ( max-width:  576px) { 
 
-    .invisible-cont
+.invisible-cont
 {
  display: none;
 }
 
-.brand-head
+.shop-button
 {
-    width: 80%;
-    text-align: center;
-}
-
-.shop-container
-{
-    width: 10%;
-    display: flex;
-    justify-content: flex-end;
+    background-color: black;
+    border: 0px;
+    padding: 5px 10px;
+    font-size: 70%;
+    border-radius: 5px;
+    cursor: pointer; 
 }
 
 .mid-container
