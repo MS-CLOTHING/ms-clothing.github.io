@@ -168,15 +168,6 @@ text-decoration: none;
 {
     font-size: 120%;
 }
-/* .shop-button
-{
-    background-color: black;
-    border: 0px;
-    padding: 5px 10px;
-    font-size: 70%;
-    border-radius: 5px;
-    cursor: pointer; 
-} */
 .shop-container
 {
  display: none;
@@ -184,7 +175,7 @@ text-decoration: none;
 
 .mid-container
 {
-    margin:10% 15px 50px 15px;
+    margin:17% 15px 50px 15px;
 }
     .container{
         width: 96%;
