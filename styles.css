@@ -104,7 +104,10 @@ text-decoration: none;
 }
 
 
-
+.overlay-shop
+{
+    display: none;
+}
  /* Medium devices (tablets, less than 992px) */
  @media (max-width: 991.98px) { 
     .container{
@@ -133,8 +136,39 @@ text-decoration: none;
 {
  display: none;
 }
+.brand-head
+{
+    width: 100%;
+}
 
-.shop-button
+.overlay-shop
+{
+    position: fixed;
+    bottom:3%;
+    right: 5% ;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.overlay-shop span
+{
+  font-size: 80%;
+}
+.bag
+{
+    font-size: 120%;
+}
+/* .shop-button
 {
     background-color: black;
     border: 0px;
@@ -142,6 +176,10 @@ text-decoration: none;
     font-size: 70%;
     border-radius: 5px;
     cursor: pointer; 
+} */
+.shop-container
+{
+ display: none;
 }
 
 .mid-container
