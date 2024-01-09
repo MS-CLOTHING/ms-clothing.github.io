@@ -1,69 +1,70 @@
-
 <html>
-    <head>
-        <title >MS CLOTHING</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-   <link rel="stylesheet" href="styles.css">
-    </head>
-    
-    <body>
-     
-      <div class="mid-container" >
-          <div  class="lists">
-           <div class="container" >   
-               <img  [src]="c.images[0]">
-               <p class="brand-name">MS</p>
-               <p class="cloth-name">{{c.name}}</p>
-               <p class="rate"><span class="cloth-price">RS.{{c.price}}</span><span class="cloth-mrp">RS.{{c.mrp}}</span></p>
-          
-          </div>
-          <div class="container" >   
-            <img  [src]="c.images[0]">
-            <p class="brand-name">MS</p>
-            <p class="cloth-name">{{c.name}}</p>
-            <p class="rate"><span class="cloth-price">RS.{{c.price}}</span><span class="cloth-mrp">RS.{{c.mrp}}</span></p>
-       
-       </div>
-       <div class="container" >   
-        <img  [src]="c.images[0]">
-        <p class="brand-name">MS</p>
-        <p class="cloth-name">{{c.name}}</p>
-        <p class="rate"><span class="cloth-price">RS.{{c.price}}</span><span class="cloth-mrp">RS.{{c.mrp}}</span></p>
-   
-   </div>
-   <div class="container" >   
-    <img  [src]="c.images[0]">
-    <p class="brand-name">MS</p>
-    <p class="cloth-name">{{c.name}}</p>
-    <p class="rate"><span class="cloth-price">RS.{{c.price}}</span><span class="cloth-mrp">RS.{{c.mrp}}</span></p>
+  <head>
+    <title>MS CLOTHING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-</div>
-<div class="container" >   
-  <img  [src]="c.images[0]">
-  <p class="brand-name">MS</p>
-  <p class="cloth-name">{{c.name}}</p>
-  <p class="rate"><span class="cloth-price">RS.{{c.price}}</span><span class="cloth-mrp">RS.{{c.mrp}}</span></p>
-
-</div>
-<div class="container" >   
-  <img  [src]="c.images[0]">
-  <p class="brand-name">MS</p>
-  <p class="cloth-name">{{c.name}}</p>
-  <p class="rate"><span class="cloth-price">RS.{{c.price}}</span><span class="cloth-mrp">RS.{{c.mrp}}</span></p>
-
-</div>
-          </div>
-         
-      </div> 
-      <div class="top-container">
-        <div style="visibility: hidden;width: 10%;" >;</div>
-         <h2 style="width: 80%;text-align: center;" >MSCLOTHING.ONLINE</h2>
-       <div style="width: 10%;display: flex;justify-content: flex-end;"  >
-        <button class="shop" type="button"> <a href="https://api.whatsapp.com/send?phone=918220162220&text= Hai I Want This Product!" target="_blank" > Shop</a></button>
-       </div>
-     </div>   
-    </body>
+  <body>
+    <div class="mid-container">
+      <div class="lists">
+        <div class="container">
+          <img [src]="c.images[0]" />
+          <p class="brand-name">MS</p>
+          <p class="cloth-name">T-Shirt In Black</p>
+          <p class="rate">
+            <span class="cloth-price">RS.250</span>
+            <span class="cloth-mrp">RS.600</span>
+          </p>
+        </div>
+        <div class="container">
+          <img [src]="c.images[0]" />
+          <p class="brand-name">MS</p>
+          <p class="cloth-name">T-Shirt In Navy Blue</p>
+          <p class="rate">
+            <span class="cloth-price">RS.250</span>
+            <span class="cloth-mrp">RS.600</span>
+          </p>
+        </div>
+        <div class="container">
+          <img [src]="c.images[0]" />
+          <p class="brand-name">MS</p>
+          <p class="cloth-name">T-Shirt In Charcoal Melange</p>
+          <p class="rate">
+            <span class="cloth-price">RS.250</span>
+            <span class="cloth-mrp">RS.600</span>
+          </p>
+        </div>
+        <div class="container">
+          <img [src]="c.images[0]" />
+          <p class="brand-name">MS</p>
+          <p class="cloth-name">T-Shirt In Steel Blue</p>
+          <p class="rate">
+            <span class="cloth-price">RS.250</span>
+            <span class="cloth-mrp">RS.600</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="top-container">
+      <div class="invisible-cont">;</div>
+      <h2 class="brand-head">MSCLOTHING.ONLINE</h2>
+      <div class="shop-container">
+        <button class="shop-button" type="button">
+          <a
+            href="https://api.whatsapp.com/send?phone=918220162220&text= Hai I Want This Product!"
+            target="_blank"
+          >
+            Shop</a
+          >
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
