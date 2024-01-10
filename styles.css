@@ -29,6 +29,11 @@ font-family: 'Poppins', sans-serif;
     width: 10%;
 }
 
+.product-head
+{
+    text-align: center;
+    font-weight: 200;
+}
 .brand-head
 {
     width: 80%;

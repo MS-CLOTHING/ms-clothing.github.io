@@ -1,0 +1,159 @@
+.main-content{
+    margin: 50px;
+    
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size:150%;
+}
+.head-name{
+    font-size:200%;
+    margin:0px 10px;
+
+}
+.body-part{
+    display: flex;
+}
+.cloth-part{
+    width: 58%;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+}
+.cloth-collections{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+}
+.cloth-collections img{
+    width:80%;
+    margin: 20%;
+    margin:5px 0px;
+    transition: all 0.3s;
+
+}
+.cloth-collections img:hover{
+  transform: scale(1.05);
+
+}
+
+.cloth-collections img:first-child{
+    border: 1px solid black;
+}
+
+.main-img{
+    width:80% ;
+}
+.main-img img
+{
+    width: 100%;
+   /* height: 93%; */
+   height: auto;
+}
+
+.rigth-section{
+    width:36%;
+    margin:2%;
+  }
+
+ .cloth-name{
+     text-transform: uppercase;
+     font-size: 125%;
+ } 
+ .low{
+     margin-top: 20px;
+     font-weight: 300;
+ }
+
+ .input-section{
+    margin-top: 10%;
+
+ }
+ .size-section,.qty-section{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 20px;
+ }
+label{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+select,input{
+    width: 100%;
+    padding: 8px;
+}
+
+.icon1{
+    width: 25px;
+    margin: 0px 5px;
+    vertical-align: middle;
+    /* background-color: green; */
+}
+
+
+.addtocart,.whatsapp{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 140%;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border:1px solid transparent ;
+    transition: all 0.5s;
+}
+.addtocart:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transform: scale(1.03);
+}
+
+.whatsapp{
+    margin-top:5px;
+}
+.whatsapp:hover{
+    transform: scale(1.03);
+}
+
+
+ /* Medium devices (tablets, less than 992px) */
+ /* @media (max-width: 991.98px) { 
+  
+ } */
+
+
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) { 
+
+
+ } */
+
+/*  Extra small devices (portrait phones, less than 576px) */
+@media ( max-width:  767.98px) { 
+    .main-content{
+        margin: 10px;
+        
+    }
+    .body-part{
+        flex-direction: column;
+    }
+
+    .cloth-part,.rigth-section{
+        width: 100%;
+        padding-right: 4%;
+    }
+
+}
+
+
+
+
+
+ /* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... } */

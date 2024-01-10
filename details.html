@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>MS CLOTHING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/details.css" />
+  </head>
+
+  <body>
+    <div class="mid-container">
+      <div class="main-content" *ngIf="clothsDetail">
+        <h1 class="head-name">T-SHIRT IN BLACK</h1>
+        <div class="body-part">
+        <div class="cloth-part">
+        <div class="cloth-collections">
+          <img src="./black.jpg">  
+          <img src="./black.jpg">  
+          <img src="./black.jpg">  
+          <img src="./black.jpg">  
+          <img src="./black.jpg">
+        </div>
+       <div class="main-img">
+        <img  src="./black.jpg">
+       </div>
+        </div>
+       
+       
+        <div class="rigth-section">
+          <h1>MS</h1>
+          <p class="cloth-name">T-SHIRT IN BLACK</p>
+          <p class="low">As low as</p>
+          <p>₹ 250</p>
+        <div class="input-section">
+          <div class="size-section">
+          <label>size</label>
+          <div>
+            <span>S</span>
+            <span>M</span>
+            <span>L</span>
+            <span>XL</span>
+          </div>
+          <!-- <select [formControl]="size">
+            <option value="">Choose an Option </option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select> -->
+          </div>
+          <div class="qty-section">
+            <label>quantity</label>
+           <input type="number" min="1" max="50" [formControl]="qty" value="1">
+            </div>
+            </div>
+          <!-- <button class="addtocart" (click)=" addToCart()">ADD TO CART</button> -->
+          <p style="margin-top: 5px;">Buy On</p>  
+          <button class="whatsapp" (click)="directToWhatsapp()">
+            <ion-icon class="icon1" name="logo-whatsapp"></ion-icon>
+            WHATSAPP
+          </button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="top-container">
+      <div class="invisible-cont">;</div>
+      <h2 class="brand-head">MSCLOTHING.ONLINE</h2>
+      <div class="shop-container">
+        <button class="shop-button" type="button">
+          <a
+            href="https://api.whatsapp.com/send?phone=918220162220&text= Hai I Want Shop a Cloth !"
+            target="_blank"
+          >
+            Shop</a
+          >
+        </button>
+      </div>
+    </div>
+    <a  href="https://api.whatsapp.com/send?phone=918220162220&text= Hai I Want Shop a Cloth !"
+    target="_blank" class="overlay-shop">
+       <ion-icon class="bag" name="bag-handle-outline"></ion-icon>
+      <span> Shop</span>
+  </as>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
