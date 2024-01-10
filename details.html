@@ -54,8 +54,14 @@
           </select> -->
           </div>
           <div class="qty-section">
-            <label>quantity</label>
-           <input type="number" min="1" max="50" [formControl]="qty" value="1">
+            <label>Product Features</label>
+            <ul style="padding: 0px 15px;color: rgb(117, 117, 117);">
+                <li>Half Sleeve</li>
+                <li>Round Neck</li>
+                <li>100% Cotton</li>
+               <li>Label Free</li> 
+            </ul>
+           <!-- <input type="number" min="1" max="50" [formControl]="qty" value="1"> -->
             </div>
             </div>
           <!-- <button class="addtocart" (click)=" addToCart()">ADD TO CART</button> -->
@@ -82,7 +88,7 @@
         </button>
       </div>
     </div>
-    <a  href="https://api.whatsapp.com/send?phone=918220162220&text= Hai I Want Shop a Cloth !"
+    <a style="display: none;"  href="https://api.whatsapp.com/send?phone=918220162220&text= Hai I Want Shop a Cloth !"
     target="_blank" class="overlay-shop">
        <ion-icon class="bag" name="bag-handle-outline"></ion-icon>
       <span> Shop</span>
