@@ -20,6 +20,7 @@ tshirts = [{
       "./assets/images/blue.jpg",
       "./assets/images/blue.jpg",
       "./assets/images/blue.jpg",
+      "./assets/images/blue.jpg",
     ]
   },
 //   {

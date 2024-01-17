@@ -1,13 +1,22 @@
 let collections
+let name = localStorage.getItem("name");
+let selectedProduct = tshirts.find((data)=>{
+  if(data.name == name )
+  {
+    return data
+  }
+})
+console.log(selectedProduct);
 document.addEventListener('DOMContentLoaded', function() {
     collections = document.querySelectorAll('.cloth-collections img')  ;
-    console.log(collections);
+    // console.log(collections);
     domActivity();
 });
 
 
 function domActivity()
 {
+    
     for(let i=0;i<collections.length;i++)
     {
       collections[i].addEventListener('click',(e=>{

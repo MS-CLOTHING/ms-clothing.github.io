@@ -11,7 +11,8 @@ function clothList()
     {
         let a =  document.createElement('a');
         a.classList.add("container");
-        a.href = "./details.html";
+        // a.href = "./details.html";
+        a.onclick = function(){selectContent(tshirts[i].name)} 
         let img = document.createElement('img');
         img.src = "./assets/images/blue.jpg";
         img.src = tshirts[i].images[0];
@@ -47,6 +48,13 @@ function clothList()
     }
  
   
+}
+
+function selectContent(selected)
+{
+    console.log("executed");
+    localStorage.setItem('name', selected)
+    window.location.href = '/details.html';
 }
 
 function directToWhatsapp()
