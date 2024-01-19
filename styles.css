@@ -85,7 +85,6 @@ text-decoration: none;
     cursor: pointer;
     text-decoration: none;
     color: black;
-    display: none;
 }
 .container:hover{
     transform: scale(1.05);
@@ -186,7 +185,6 @@ text-decoration: none;
     .container{
         width: 96%;
         margin: 3% 0% 1% 0%;
-        border: 1px solid rgb(138, 137, 137);
 
     }
 
