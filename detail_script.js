@@ -8,12 +8,37 @@ let selectedProduct = tshirts.find((data)=>{
 })
 console.log(selectedProduct);
 document.addEventListener('DOMContentLoaded', function() {
+ 
     collections = document.querySelectorAll('.cloth-collections img')  ;
+    renderData(); 
     // console.log(collections);
     domActivity();
+
 });
 
+function renderData()
+{
+  let head_name = document.querySelector('.head-name');
+  console.log(head_name);
+  head_name.innerText = selectedProduct.name;
+  for(let i=0;i<collections.length;i++)
+  {
+    collections[i].src = selectedProduct.images[i];
+  }
 
+  let main_image = document.querySelector('.main-img img');
+  main_image.src = selectedProduct.images[0];
+
+  let cloth_name = document.querySelector('.cloth-name');
+  cloth_name.innerText = selectedProduct.name;
+
+  let price = document.querySelector('.price');
+  price.innerText = "RS."+selectedProduct.price;
+
+  let mrp = document.querySelector('.mrp');
+  mrp.innerText = "RS."+selectedProduct.mrp;
+
+}
 function domActivity()
 {
     
