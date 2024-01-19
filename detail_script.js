@@ -22,6 +22,7 @@ function domActivity()
       collections[i].addEventListener('click',(e=>{
         console.log(collections[i]);
         collections[i].style.border ="1px solid black";
+        collections[i].style.borderRadius ="3px";
         let  selectedImage =collections[i].getAttribute('src');
         console.log(selectedImage);
        let mainImg = this.document.querySelector('.main-img img');
@@ -36,4 +37,9 @@ function domActivity()
          });
       }))
     }
+}
+
+function directToWhatsapp()
+{
+    window.open(`https://api.whatsapp.com/send?phone=918220162220&text=Hai I Want Shop a Cloth ! `, '_blank');
 }

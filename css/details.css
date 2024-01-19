@@ -41,6 +41,7 @@ h1{
 
 .cloth-collections img:first-child{
     border: 1px solid black;
+    border-radius: 3px ;
 }
 
 .main-img{
