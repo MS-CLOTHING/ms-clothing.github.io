@@ -85,7 +85,7 @@ text-decoration: none;
     cursor: pointer;
     text-decoration: none;
     color: black;
-    
+    display: none;
 }
 .container:hover{
     transform: scale(1.05);
