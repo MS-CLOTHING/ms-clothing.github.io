@@ -39,7 +39,10 @@ font-family: 'Poppins', sans-serif;
     cursor: pointer;
     display: block;
     text-decoration:none;
-    text-transform: capitalize;    
+    text-transform: capitalize; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 .invisible-cont
 {

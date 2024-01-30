@@ -89,5 +89,5 @@ function directToWhatsapp()
 
 function directToPromo()
 {
-    window.open(`promo.html`,"_self");
+    window.open(`giveaway.html`,"_self");
 }
