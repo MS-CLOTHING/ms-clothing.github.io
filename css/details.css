@@ -94,7 +94,7 @@ select,input{
 }
 
 
-.addtocart,.whatsapp{
+.addtocart,.whatsapp,.subscribe{
     margin-top: 10px;
     width: 100%;
     font-size: 140%;
@@ -104,6 +104,10 @@ select,input{
     background-color: black;
     border:1px solid transparent ;
     transition: all 0.5s;
+}
+.subscribe
+{
+    background-color: rgb(233, 37, 37);
 }
 .addtocart:hover{
     background-color: white;
@@ -115,10 +119,26 @@ select,input{
 .whatsapp{
     margin-top:5px;
 }
-.whatsapp:hover{
+.whatsapp:hover,.subscribe:hover{
     transform: scale(1.03);
+    cursor: pointer;
 }
 
+.size-chart
+{
+    margin-top: 5px;
+}
+
+.size-chart span
+{
+    padding: 5px;
+}
+
+.features
+{
+    padding: 0px 15px;
+    color: rgb(117, 117, 117);
+}
 
  /* Medium devices (tablets, less than 992px) */
  /* @media (max-width: 991.98px) { 

@@ -38,17 +38,13 @@
           <p class="cloth-name">T-SHIRT IN BLACK</p>
           <p class="low">As low as</p>
           <p >
-            <span class="price" style="color: green;" >Rs.250</span>
-            <span class="mrp" style="color: red;text-decoration:line-through;" >Rs.600</span> 
+            <span class="price" style="color: green;" >Rs.1000</span>
+            <span class="mrp" style="color: red;text-decoration:line-through;" >Rs.1500</span> 
           </p>
         <div class="input-section">
           <div class="size-section">
           <label>size</label>
-          <div style="margin-top: 5px;">
-            <span style="padding: 5px;">S-36</span>
-            <span style="padding: 5px;">M-38</span>
-            <span style="padding: 5px;">L-40</span>
-            <span style="padding: 5px;">XL-42</span>
+          <div class="size-chart">
           </div>
           <!-- <select [formControl]="size">
             <option value="">Choose an Option </option>
@@ -60,11 +56,7 @@
           </div>
           <div class="qty-section">
             <label>Product Features</label>
-            <ul style="padding: 0px 15px;color: rgb(117, 117, 117);">
-                <li>Half Sleeve</li>
-                <li>Round Neck</li>
-                <li>100% Cotton</li>
-               <li>Label Free</li> 
+            <ul class="features">
             </ul>
            <!-- <input type="number" min="1" max="50" [formControl]="qty" value="1"> -->
             </div>
@@ -75,22 +67,28 @@
             <ion-icon class="icon1" name="logo-whatsapp"></ion-icon>
             WHATSAPP
           </button>
+          <button class="subscribe" onclick="directToPromo()">
+            <!-- <ion-icon class="icon1" name="logo-whatsapp"></ion-icon> -->
+            Free T-shirt
+          </button>
         </div>
         </div>
     </div>
     </div>
     <div class="top-container">
-      <div class="invisible-cont">;</div>
-      <h2 class="brand-head">MSCLOTHING.ONLINE</h2>
-      <div class="shop-container">
-        <button class="shop-button" type="button">
-          <a
-            href="https://api.whatsapp.com/send?phone=918220162220&text= Hai I Want Shop a Cloth !"
-            target="_blank"
-          >
-            Shop</a
-          >
-        </button>
+      <div class="top-brand-shop">
+        <div class="invisible-cont">;</div>
+        <h2 class="brand-head">MSCLOTHING.ONLINE</h2>
+        <div class="shop-container">
+          <button class="shop-button" type="button">
+            <a
+              href="https://api.whatsapp.com/send?phone=918220162220&text= Hai I Want Shop a Cloth !"
+              target="_blank"
+            >
+              Shop</a
+            >
+          </button>
+        </div>
       </div>
     </div>
     <a style="display: none;"  href="https://api.whatsapp.com/send?phone=918220162220&text= Hai I Want Shop a Cloth !"

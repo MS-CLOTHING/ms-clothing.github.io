@@ -11,18 +11,36 @@ font-family: 'Poppins', sans-serif;
 
 .top-container
 {
- padding: 10px 20px;
- box-shadow: 0px 1px 20px rgba(186, 186, 186, 0.607);
+ 
+ box-shadow: 0px 1px 15px rgba(186, 186, 186, 0.607);
  position: fixed;
  top: 0;
  width: 100%;
  z-index: 10;
  background-color: white;
- display: flex;
- justify-content:space-between ;
- align-items: center;
+
 }
 
+.top-brand-shop
+{
+    padding: 10px 20px;
+    display: flex;
+ justify-content:space-between ;
+ align-items: center; 
+}
+
+.promo
+{
+    text-align: center;
+    background-color: rgb(233, 37, 37);
+    color: white;
+    font-size: 70%;
+    padding: 3px;
+    cursor: pointer;
+    display: block;
+    text-decoration:none;
+    text-transform: capitalize;    
+}
 .invisible-cont
 {
     visibility: hidden;

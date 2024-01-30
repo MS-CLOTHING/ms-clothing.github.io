@@ -9,6 +9,15 @@ tshirts = [{
        "./assets/images/black.jpg",
        "./assets/images/black.jpg",
        "./assets/images/black.jpg",
+    ],
+    size:[
+      'S-36','M-38','L-40','XL-42'
+    ],
+    features:[
+      'Half Sleeve',
+      'Round Neck',
+      '100% Cotton',
+      'Label Free'
     ]
   },
   {
@@ -21,6 +30,15 @@ tshirts = [{
       "./assets/images/blue.jpg",
       "./assets/images/blue.jpg",
       "./assets/images/blue.jpg",
+    ],
+    size:[
+      'S-36','M-38','L-40','XL-42'
+    ],
+    features:[
+      'Half Sleeve',
+      'Round Neck',
+      '100% Cotton',
+      'Label Free'
     ]
   },
 //   {

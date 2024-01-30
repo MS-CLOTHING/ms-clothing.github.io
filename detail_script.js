@@ -38,6 +38,24 @@ function renderData()
   let mrp = document.querySelector('.mrp');
   mrp.innerText = "RS."+selectedProduct.mrp;
 
+  let sizeChart = document.querySelector('.size-chart');
+
+  for(let i=0;i<selectedProduct.size.length;i++)
+  {
+    let span = document.createElement('span');
+  span.innerHTML = selectedProduct.size[i];
+  sizeChart.appendChild(span); 
+  }
+
+  let features = document.querySelector('.features');
+  for(let i=0;i<selectedProduct.features.length;i++)
+  {
+    let li = document.createElement('li');
+  li.innerHTML = selectedProduct.features[i];
+  features.appendChild(li); 
+  }
+
+
 }
 function domActivity()
 {
@@ -67,4 +85,9 @@ function domActivity()
 function directToWhatsapp()
 {
     window.open(`https://api.whatsapp.com/send?phone=918220162220&text=Hai I Want Shop a Cloth ! `, '_blank');
+}
+
+function directToPromo()
+{
+    window.open(`promo.html`,"_self");
 }
