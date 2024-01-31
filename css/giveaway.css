@@ -1,0 +1,51 @@
+.promo-container
+{
+ display: flex;
+ width: 100%;   
+ flex-wrap: wrap;
+}
+
+.promo-container img
+{
+    width:31.33% ;
+    margin: 1%;
+    height: auto;
+}
+
+.promo-container img:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+ /* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+   
+    /* .promo-container div
+    {
+        width:47% ;
+        margin: 1%;
+    } */
+ }
+
+
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+    .promo-container img
+{
+    width:47% ;
+    margin: 1%;
+}
+ }
+
+/*  Extra small devices (portrait phones, less than 576px) */
+@media ( max-width:  576px) { 
+
+    .promo-container img
+{
+    width:98% ;
+    margin: 1%;
+}
+}
