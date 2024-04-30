@@ -1,6 +1,6 @@
 
 tshirts = [{
-    name:"T-shirt in Black",
+    name:"T-shirt in CharCoal Gray",
     price:"250",
     mrp:"600",
     images:[
@@ -21,15 +21,15 @@ tshirts = [{
     ]
   },
   {
-    name:"T-shirt in Blue",
+    name:"T-shirt in Navy",
     price:"250",
     mrp:"600",
     images:[
-      "./assets/images/blue.jpg",
-      "./assets/images/blue.jpg",
-      "./assets/images/blue.jpg",
-      "./assets/images/blue.jpg",
-      "./assets/images/blue.jpg",
+      "./assets/images/blue.png",
+      "./assets/images/blue.png",
+      "./assets/images/blue.png",
+      "./assets/images/blue.png",
+      "./assets/images/blue.png",
     ],
     size:[
       'S-36','M-38','L-40','XL-42'
