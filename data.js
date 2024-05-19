@@ -1,7 +1,7 @@
 
 tshirts = [{
     name:"T-shirt in CharCoal Gray",
-    price:"250",
+    price:"200",
     mrp:"600",
     images:[
       "./assets/images/black.jpg",
@@ -22,7 +22,7 @@ tshirts = [{
   },
   {
     name:"T-shirt in Navy",
-    price:"250",
+    price:"200",
     mrp:"600",
     images:[
       "./assets/images/blue.png",
